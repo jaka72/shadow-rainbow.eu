@@ -1,0 +1,9 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^liveand\.be$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.liveand\.be$
+RewriteRule ^/?$ "https\:\/\/liveand\.be\/" [R=301,L]

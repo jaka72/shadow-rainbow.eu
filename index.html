@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveAndBe</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+</head>
+
+<body>
+
+    <div id="pdf-container">
+        <div id="language-buttons">
+            <button id="slo" onclick="changePDF('v_senci_mavricnega_samoroga01_SL.pdf')">slo</button>
+            <button id="en" onclick="changePDF('path_to_spanish.pdf')">en</button>
+            <button id="se" onclick="changePDF('path_to_french.pdf')">se</button>
+            <button id="cro" onclick="changePDF('path_to_french.pdf')">cro</button>
+            <button id="nl" onclick="changePDF('path_to_german.pdf')">nl</button>
+            <button id="pt" onclick="changePDF('path_to_italian.pdf')">pt</button>
+        </div>
+        <iframe id="pdf-iframe" src="v_senci_mavricnega_samoroga01_SL.pdf"></iframe>
+    </div>
+    <!--<div id="white-space"><div>-->
+
+    <!-- CommentBox Section -->
+    <!-- CommentBox Section -->
+    <div class="comment-wrapper">
+        <div class="commentbox"></div>
+    </div>
+    <script>
+        function changePDF(path) {
+            document.getElementById('pdf-iframe').src = path;
+        };
+        
+        commentBox('5667956226785280-proj', {
+            // backgroundColor: '#18292f',
+            // textColor: '#c6e5f0',
+            // subtextColor: 'yellow'
+            backgroundColor: 'grey',
+            textColor: 'blue',
+            subtextColor: 'orange'
+        });
+        
+    </script>
+    <script>commentBox('5667956226785280-proj')</script>
+
+</body>
+
+</html>

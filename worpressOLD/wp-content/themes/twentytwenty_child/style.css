@@ -1,0 +1,33 @@
+/* 
+Theme Name: Twenty Twenty Child 
+Theme URI: https://liveand.be
+Description: Twenty TwentyTwo Child 
+Theme Author: Name Admin
+Author URI: https://liveand.be
+Template: twentytwenty 
+Version: 1.0.0
+Text Domain: twentytwenty-child
+License: GNU General Public License or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+*/
+
+/*
+	 THIS HEER SEEMS NOT TO HAVE ANY EFFECT. IT NEEDS TO BE INSIDE "Additional CSS" in the Customize menu
+*/
+
+/* #dodaj-komentar {
+	color: rgb(231, 238, 128);
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family:arial;
+} */
+
+/* #language_button {
+	background-color: #5b53e6;
+	font-size: 1.5rem;
+	border-radius: 30px;
+	padding:  0.6rem 1rem 0.6rem 1rem;
+	margin-right: 1rem;
+} */
